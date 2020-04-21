@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Réseau Strasbourg (dessin)</name>
+    <description/>
+    <Style id="line-FF5252-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF5252-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF5252-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF5252-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF5252-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Calque sans titre</name>
+      <Placemark>
+        <name>Ligne A</name>
+        <styleUrl>#line-FF5252-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            7.707783,48.5244567,0
+            7.7084193,48.5255017,0
+            7.7091785,48.5277434,0
+            7.7092402,48.5278055,0
+            7.7093126,48.5278464,0
+            7.7093984,48.5278766,0
+            7.7094789,48.5278855,0
+            7.7096452,48.5278659,0
+            7.7110828,48.5276634,0
+            7.7111729,48.5276601,0
+            7.7112473,48.5276672,0
+            7.7113278,48.527688,0
+            7.7113995,48.5277187,0
+            7.7114598,48.5277604,0
+            7.7115041,48.5278022,0
+            7.7115443,48.5278572,0
+            7.7119992,48.5286221,0
+            7.7120519,48.5286621,0
+            7.7121008,48.5286977,0
+            7.712255,48.5287705,0
+            7.7124079,48.5288099,0
+            7.7126466,48.5288188,0
+            7.7128981,48.5287735,0
+            7.7199729,48.5270397,0
+            7.7203719,48.5269397,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
